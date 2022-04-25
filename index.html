@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
 <body>
+    <div id = "main">
     <h1>Hello World, we are software developers!</h1>
     <h1 id="title">
         freeCodeCamp Survey Form
@@ -14,32 +16,32 @@
     <p>Thank you for taking the time to help us improve the platform</p>
     <form id="survey-form">
         <label for="name" id="name-label">name</label>
-        <input  type="text" name="name" placeholder="Enter your name">
+        <input  type="text" name="name" placeholder="Enter your name"> <br>
         <label id="email-label"  for="email">
             Email
         </label>
-        <input type="email" placeholder="Enter your email" required>
+        <input type="email" placeholder="Enter your email" required><br>
         <label for="age" id="age-label">
             Age
         </label>
-        <input type="number" min="10" max="10" placeholder="Enter your age here">
+        <input type="number" min="10" max="10" placeholder="Enter your age here"><br>
         
         <label for="description">Which option best describes your current role?</label>
         <select>
-            <option>Student</option>
-            <option>Full time job</option>
-            <option>Full time learner</option>
-            <option>prefer nnot to say</option>
+            <option>Student</option><br>
+            <option>Full time job</option><br>
+            <option>Full time learner</option><br>
+            <option>prefer nnot to say</option><br>
             <option>Other</option>
 
-        </select>
+        </select><br>
 
-        <label for="radio">Would you recommend freeCodeCamp to a friend?</label>
+        <h2>Would you recommend freeCodeCamp to a friend?</h2>
         
         <input type="radio" value="Definitely" id="Definitely">
-        <label for="Definitely">Definitely</label>
+        <label for="Definitely">Definitely</label><br>
         <input type="radio" value="Maybe" id="Maybe">
-        <label for="Maybe">Maybe</label>
+        <label for="Maybe">Maybe</label><br>
         <input type="radio" value="Not sure" id="NoSure">
         <label for="NoteSure">Note sure</label>
 
@@ -83,5 +85,6 @@
 
 
     </form>
+    </div>
 </body>
 </html>
