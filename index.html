@@ -8,5 +8,80 @@
 </head>
 <body>
     <h1>Hello World, we are software developers!</h1>
+    <h1 id="title">
+        freeCodeCamp Survey Form
+    </h1>
+    <p>Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+        <label for="name" id="name-label">name</label>
+        <input  type="text" name="name" placeholder="Enter your name">
+        <label id="email-label"  for="email">
+            Email
+        </label>
+        <input type="email" placeholder="Enter your email" required>
+        <label for="age" id="age-label">
+            Age
+        </label>
+        <input type="number" min="10" max="10" placeholder="Enter your age here">
+        
+        <label for="description">Which option best describes your current role?</label>
+        <select>
+            <option>Student</option>
+            <option>Full time job</option>
+            <option>Full time learner</option>
+            <option>prefer nnot to say</option>
+            <option>Other</option>
+
+        </select>
+
+        <label for="radio">Would you recommend freeCodeCamp to a friend?</label>
+        
+        <input type="radio" value="Definitely" id="Definitely">
+        <label for="Definitely">Definitely</label>
+        <input type="radio" value="Maybe" id="Maybe">
+        <label for="Maybe">Maybe</label>
+        <input type="radio" value="Not sure" id="NoSure">
+        <label for="NoteSure">Note sure</label>
+
+
+        <label for="">Front-end Projects</label>
+        <input type="checkbox">
+
+        <label for="">Back-end Projects</label>
+        <input type="checkbox">
+
+        <label for="">Data Visualization</label>
+        <input type="checkbox">
+
+        <label for="">Challenges</label>
+        <input type="checkbox">
+
+        <label for="">Open Source Community</label>
+        <input type="checkbox">
+
+        <label for="">Gitter help rooms</label>
+        <input type="checkbox">
+
+
+        <label for="">Videos</label>
+        <input type="checkbox">
+
+        <label for="">City Meetups</label>
+        <input type="checkbox">
+
+        <label for="">Wiki</label>
+        <input type="checkbox">
+
+        <label for="">Forum</label>
+        <input type="checkbox">
+
+        <label for="">Additional Courses</label>
+        <input type="checkbox">
+
+        <textarea placeholder="Enter your comment here"></textarea>
+        <input type="submit" id="submit">
+
+
+    </form>
 </body>
 </html>
